@@ -15,9 +15,9 @@
 
 <div class="container">
     <div class="card mx-auto mt-5 bg-primary" style="width: 50%">
-        <div class="card-body">
-          <h3 class="text-center text-white text-uppercase">My Search</h3>
-            <form class="mt-5">
+        <div class="card-body py-5">
+          <h3 class="text-center text-white text-uppercase" style="text-transform: uppercase">My Search</h3>
+            <form action="search" class="mt-3">
                 <div class="form-group">
                     <input type="text" name="querybox"
                            placeholder="Enter your keyword" class="form-control">
